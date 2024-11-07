@@ -1,0 +1,442 @@
+/* Body font Size */
+@font-face {
+  font-family: "Onemobile";
+  src: url("ONEMobileOTFRegular.eot");
+  src: url("../fonts/ONEMobileOTFRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ONEMobileOTFRegular.woff2") format("woff2"), url("../fonts/ONEMobileOTFRegular.woff") format("woff"), url("../fonts/ONEMobileOTFRegular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Onemobile";
+  src: url("../fonts/ONEMobileOTFLight.eot");
+  src: url("../fonts/ONEMobileOTFLight.eot?#iefix") format("embedded-opentype"), url("../fonts/ONEMobileOTFLight.woff2") format("woff2"), url("../fonts/ONEMobileOTFLight.woff") format("woff"), url("../fonts/ONEMobileOTFLight.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Onemobile";
+  src: url("../fonts/ONEMobileOTFBold.eot");
+  src: url("../fonts/ONEMobileOTFBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ONEMobileOTFBold.woff2") format("woff2"), url("../fonts/ONEMobileOTFBold.woff") format("woff"), url("../fonts/ONEMobileOTFBold.ttf") format("truetype");
+  font-weight: 700;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+.pc_only {
+  display: block;
+}
+
+.mo_only {
+  display: none;
+}
+
+.glo-contents {
+  font-family: "Mont", "Onemobile", "NotoSans", sans-serif;
+}
+
+.mont {
+  vertical-align: top;
+}
+
+body {
+  background-color: #000;
+}
+
+.creators {
+  width: 100%;
+}
+.creators .yourself {
+  height: 100vh;
+  width: 75vw;
+  margin: 0 auto;
+}
+.creators .yourself .main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 80px);
+  background: #000;
+  gap: 5.5vw 0;
+  top: 0 !important;
+}
+.creators .yourself .main__bg {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.creators .yourself .main__bg img, .creators .yourself .main__bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.creators .yourself .main h2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5.72vw;
+  font-weight: 400;
+  line-height: 0.8;
+  letter-spacing: -0.02em;
+  color: #fff;
+  gap: 0 1.25vw;
+}
+.creators .yourself .main h2 .line {
+  position: relative;
+  width: 21.5625vw;
+  height: 0.2vw;
+  background: #fff;
+}
+.creators .yourself .main h2 .sign {
+  position: absolute;
+  top: -0.625vw;
+  right: 1.25vw;
+  width: 21.5625vw;
+  height: 11vw;
+  font-size: 0;
+  background: url(/images/glo_creators/hype_yourself/yourself.svg) 50% 50%/auto 11vw no-repeat;
+}
+.creators .yourself .main h3 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 43.9484vw;
+  height: 4.8583vw;
+  background: url(/images/glo_creators/hype_yourself/hypebeast_title.svg) 50% 50%/contain no-repeat;
+  text-indent: -9999px;
+}
+.creators .yourself .circle {
+  width: 100%;
+  position: relative;
+  background: url(/images/glo_creators/hype_yourself/yourself_bg.png) no-repeat 100%/cover;
+}
+.creators .yourself .circle__inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 5.2083vw 0;
+}
+.creators .yourself .circle__inner h2 {
+  font-size: 2.0833vw;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 2.8646vw;
+}
+.creators .yourself .circle__inner p {
+  font-size: 1.1979vw;
+  line-height: 1.6;
+  margin-bottom: 4.1667vw;
+}
+.creators .yourself .circle__inner__list {
+  width: 100%;
+  margin-bottom: 3.7917vw;
+}
+.creators .yourself .circle__inner__list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 2.1458vw;
+}
+.creators .yourself .circle__inner__list ul li a {
+  display: block;
+  width: 10.4948vw;
+  height: 10.4948vw;
+  border-radius: 10.4948vw;
+  position: relative;
+}
+.creators .yourself .circle__inner__list ul li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.creators .yourself .circle__inner__list ul li a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8347vw;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.creators .yourself .circle__inner .red {
+  font-size: 1.1979vw;
+  color: #FE5000;
+}
+.creators .stand {
+  height: 100vh;
+  width: 75vw;
+  margin: 0 auto;
+}
+.creators .stand .main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.creators .stand .main__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.creators .stand .main__bg img, .creators .stand .main__bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.creators .stand .main .btn_play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.creators .stand .description {
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+.creators .stand .description__bg {
+  width: 100%;
+  height: 100%;
+}
+.creators .stand .description__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.creators .stand .description__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+.creators .stand .description__box h2 {
+  font-size: 2.0833vw;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.7188vw;
+}
+.creators .stand .description__box p {
+  font-size: 1.1979vw;
+  line-height: 1.5;
+  margin-bottom: 1.6667vw;
+}
+.creators .stand .description__box .logo {
+  width: 31.25vw;
+  height: 3.75vw;
+}
+.creators .stand .standslide {
+  width: 100%;
+  padding: 7.8125vw 5.7292vw;
+  position: relative;
+}
+.creators .stand .standslide .glostand {
+  width: 100%;
+}
+.creators .stand .standslide .glostand .swiper-wrapper {
+  width: 100%;
+}
+.creators .stand .standslide .glostand .swiper-slide {
+  transform: scale(0.8) translateX(-5.2083vw);
+}
+.creators .stand .standslide .glostand .swiper-slide img {
+  width: 33.9844vw;
+  height: 42.7307vw;
+  object-fit: cover;
+}
+.creators .stand .standslide .glostand .swiper-slide-active {
+  transform: scale(1) translateX(-6.2083vw);
+  position: relative;
+  z-index: 20;
+  transition: 0.5s;
+}
+.creators .stand .standslide .swiper-button-next:after {
+  background: url(/images/glo_creators/aff/ico_right.svg) no-repeat 100%/contain;
+  color: transparent;
+}
+.creators .stand .standslide .swiper-button-prev:after {
+  background: url(/images/glo_creators/aff/ico_right.svg) no-repeat 100%/contain;
+  transform: rotate(180deg);
+  color: transparent;
+}
+.creators .artwork {
+  width: 100%;
+  position: relative;
+}
+.creators .artwork__bg {
+  width: 100%;
+  height: 100%;
+}
+.creators .artwork__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.creators .artwork__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 5.7292vw 0 0;
+}
+.creators .artwork__inner h2 {
+  font-size: 2.0833vw;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.3021vw;
+}
+.creators .artwork__inner p {
+  font-size: 1.25vw;
+  line-height: 1.4;
+  margin-bottom: 3.0458vw;
+}
+.creators .artwork__box {
+  width: 100%;
+  height: 74%;
+  position: relative;
+}
+.creators .artwork__box img {
+  position: absolute;
+}
+.creators .artwork__box img:nth-child(1) {
+  width: 21.8854vw;
+  height: 14.9063vw;
+  top: 10%;
+  right: 17%;
+  z-index: 2;
+}
+.creators .artwork__box img:nth-child(2) {
+  width: 23.6563vw;
+  height: 13.7083vw;
+  top: 1%;
+  right: 38.5%;
+  z-index: 5;
+}
+.creators .artwork__box img:nth-child(3) {
+  width: 25.3229vw;
+  height: 19.0208vw;
+  top: 19%;
+  left: 13%;
+  z-index: 1;
+}
+.creators .artwork__box img:nth-child(4) {
+  width: 23.4479vw;
+  height: 16.0521vw;
+  bottom: 25%;
+  left: 21%;
+  z-index: 2;
+}
+.creators .artwork__box img:nth-child(5) {
+  width: 14.2813vw;
+  height: 15.375vw;
+  bottom: 2%;
+  right: 37%;
+  z-index: 5;
+}
+.creators .artwork__box img:nth-child(6) {
+  width: 23.2396vw;
+  height: 17.3021vw;
+  bottom: 18%;
+  right: 12.5%;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1439px) {
+  .creators .yourself {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pc_only {
+    display: none;
+  }
+  .mo_only {
+    display: block;
+  }
+  .mont {
+    font-size: 1.1em;
+  }
+  .creators .yourself .main {
+    gap: 11.7333333333vw 0;
+  }
+  .creators .yourself .main h2 {
+    font-size: 11.2vw;
+    gap: 0 2.1333333333vw;
+  }
+  .creators .yourself .main h2 .line {
+    width: 41.3333333333vw;
+    height: 0.4vw;
+  }
+  .creators .yourself .main h2 .sign {
+    top: -0.8vw;
+    width: 38.4vw;
+    height: 21.3333333333vw;
+    background-size: auto 100%;
+  }
+  .creators .yourself .main .logo_hypebeast {
+    width: 87.0853vw;
+    height: 9.6267vw;
+  }
+  .creators .yourself .circle {
+    background: url(/images/glo_creators/hype_yourself/yourself_bg_m.png) no-repeat 100% top/cover;
+  }
+  .creators .yourself .circle__inner {
+    padding: 28vw 0;
+  }
+  .creators .yourself .circle__inner h2 {
+    font-size: 6.4vw;
+    margin-bottom: 12.8vw;
+  }
+  .creators .yourself .circle__inner p {
+    font-size: 4.2666666667vw;
+    letter-spacing: -0.03em;
+  }
+  .creators .yourself .circle.mo_only .circle__inner__list {
+    margin-bottom: 14.4vw;
+    overflow: hidden;
+  }
+  .creators .yourself .circle.mo_only .circle__inner__list ul {
+    justify-content: flex-start;
+    gap: 0 7.6vw;
+    overflow-x: auto;
+    padding: 0 6.4vw;
+    -ms-overflow-style: none;
+  }
+  .creators .yourself .circle.mo_only .circle__inner__list ul::-webkit-scrollbar {
+    display: none;
+  }
+  .creators .yourself .circle.mo_only .circle__inner__list ul li a {
+    width: 69.8666666667vw;
+    height: 69.8666666667vw;
+  }
+  .creators .yourself .circle.mo_only .circle__inner__list ul li a span {
+    font-size: 12.032vw;
+    font-weight: 700;
+  }
+  .creators .yourself .circle.mo_only .red {
+    font-size: 4.2666666667vw;
+    font-weight: 700;
+    line-height: 1.7;
+  }
+}
